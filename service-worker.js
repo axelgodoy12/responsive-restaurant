@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https//axelgodoy12.github.io/responsive-restaurant/precache-manifest.9afedbce9b81474abaa81485f8257f50.js"
+  "/responsive-restaurant/precache-manifest.9e8922cb8f4f202ab9f456bd88b83087.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https//axelgodoy12.github.io/responsive-restaurant/index.html", {
+workbox.routing.registerNavigationRoute("/responsive-restaurant/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
